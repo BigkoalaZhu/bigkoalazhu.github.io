@@ -2490,9 +2490,9 @@
 		left: 0;
 		padding: 5em 4em;
 		position: fixed;
-		text-align: right;
+		text-align: left;
 		top: 0;
-		width: 35%;
+		width: 45%;
 	}
 
 		#header > * {
@@ -2520,15 +2520,15 @@
 		}
 
 		#header h1 {
-			color: rgba(0, 0, 0, 0.5);
-			font-size: 1.35em;
+			color: rgba(255, 255, 255, 0.8);
+			font-size: 1.5em;
 			line-height: 1.75em;
 			margin: 0;
 		}
 		
 		#header h2{
 			color: rgba(255, 255, 255, 0.8);
-			font-size: 1.35em;
+			font-size: 0.9em;
 			line-height: 1.75em;
 			margin: 0;
 		}
@@ -2536,7 +2536,7 @@
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 10.25em;
 		}
 
 /* Footer */
