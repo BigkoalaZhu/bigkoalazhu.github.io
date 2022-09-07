@@ -1,524 +1,879 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Chenyang Zhu at NUDT</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body id="top">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<h1><strong>Chenyang Zhu</strong><br /></h1>
-					<h1>Assistant Professor<br /></h1>
-					<h2>School of Computer Science<br /></h2>
-					<h2>National University of Defense Technology<br /></h2>
-					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-				</div>
-			</header>
+<head>
+  <!--====== Required meta tags ======-->
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-		<!-- Main -->
-			<div id="main">
+  <!--====== Title ======-->
+  <title>Chenyang Zhu Homepage</title>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-						<p>My name is Chenyang Zhu. I am currently an Assistant Professor at School of Computer Science, <a href="http://www.nudt.edu.cn/index_eng.htm">National University of Defense Technology (NUDT)</a>.<br /><br />
-							I am a  faculty member of  <a href="https://kevinkaixu.net/group.html">iGrape Lab @ NUDT</a>, which conducts research in the areas of computer graphics and computer vision. The current directions of interest include data-driven shape analysis and modeling, 3D vision and robot perception & navigation, etc.<br /><br />
-							I was a Ph.D. student in <a href="http://gruvi.cs.sfu.ca/">Gruvi Lab</a>, school of Computing Science at <a href="http://www.sfu.ca/">Simon Fraser University</a>, under the supervision of <a href="https://www.cs.sfu.ca/~haoz/index.html">Prof. Hao(Richard) Zhang</a>. I earned my Bachelor and Master degree in computer science from <a href="http://www.nudt.edu.cn/index_eng.htm">National University of Defense Technology (NUDT)</a> in Jun. 2011 and Dec. 2013 respectively. My research interest is computer graphics with a focus on geometry processing, shape analysis and deformation.</p>
-					</section>
+  <!--====== Favicon Icon ======-->
+  <link rel="shortcut icon" href="../assets/images/favicon.svg" type="image/svg" />
 
-				<!-- Two -->
-					<section id="two">
-						<h2>Recent Publications</h2>
-						<div class="row">
-							<article class="4u 12u$(xsmall) work-item">
-								<img src="images/zhang_sig21.png" width= 100% alt="ROSEFusion: Random Optimization for Online Dense Reconstruction under Fast Camera Motion" ><br>
-							</article>
-							<article class="8u$ 12u$(xsmall) work-item">
-								<p>Jiazhao Zhang, <strong>Chenyang Zhu</strong>, Lintao Zheng and <a href="http://kevinkaixu.net/">Kai Xu</a></a>
-								,"<strong>ROSEFusion: Random Optimization for Online Dense Reconstruction under Fast Camera Motion</strong>",  SIGGRAPH 2021<br><br></p>
-								<h6>Online reconstruction based on RGB-D sequences has thus far been restrained to relatively slow camera motions (<1m/s). Under very fast camera motion (e.g., 3m/s), the reconstruction can easily crumble even for the state-of-the-art methods. Fast motion brings two challenges to depth fusion: 1) the high nonlinearity of camera pose optimization due to large inter-frame rotations and 2) the lack of reliably trackable features due to motion blur. We propose to tackle the difficulties of fast-motion camera tracking in the absence of inertial measurements using random optimization. Our method attains good quality pose tracking under fast camera motion (up to 4m/s) in a realtime framerate without including loop closure or global pose optimization.</h6><p><a href="https://arxiv.org/abs/2105.05600">paper</a></p></h6>
-							</article>
-							<article class="4u 12u$(xsmall) work-item">
-								<img src="images/zhang_mmm21.png" width= 100% alt="Fine-Grained Video Deblurring with Event Camera" ><br>
-							</article>
-							<article class="8u$ 12u$(xsmall) work-item">
-								<p>Limeng Zhang, Hongguang Zhang, <strong>Chenyang Zhu</strong>, Shasha Guo, Jihua Chen, Lei Wang</a>
-								,"<strong>Fine-Grained Video Deblurring with Event Camera</strong>",  MMM 2021<br><br></p>
-								<h6>Despite CNN-based deblurring models have shown their superiority on solving motion blurs, how to restore photorealistic images from severe motion blurs remains an ill-posed problem due to the loss of temporal information and textures. In this paper, we propose a deep fine-grained video deblurring pipeline consisting of a deblurring module and a recurrent module to address severe motion blurs. Concatenating the blurry image with event representations at a fine-grained temporal period, our proposed model achieves state-of-the-art performance on both popular GoPro and real blurry datasets captured by DAVIS, and is capable of generating high frame-rate video by applying a tiny shift to event representations in the recurrent module.</h6><p><a href="https://link.springer.com/chapter/10.1007/978-3-030-67832-6_29">paper</a></p></h6>
-							</article>
-							<article class="4u 12u$(xsmall) work-item">
-								<img src="images/bpp.png" width= 100% alt="Online 3D Bin Packing with Constrained Deep Reinforcement Learning" ><br>
-							</article>
-							<article class="8u$ 12u$(xsmall) work-item">
-								<p>Hang Zhao, Qijin She, <strong>Chenyang Zhu</strong>, <a href="https://yangzzzy.github.io/">Yin Yang</a> and <a href="http://kevinkaixu.net/">Kai Xu</a>
-								,"<strong>Online 3D Bin Packing with Constrained Deep Reinforcement Learning</strong>",  AAAI 2021<br><br></p>
-								<h6>We solve a challenging yet practically useful variant of 3D Bin Packing Problem (3D-BPP). In our problem, the agent has limited information about the items to be packed into the bin, and an item must be packed immediately after its arrival without buffering or readjusting. The item's placement also subjects to the constraints of collision avoidance and physical stability.</h6><p><a href="https://arxiv.org/pdf/2006.14978.pdf">arxiv</a></p></h6>
-							</article>
-							<article class="4u 12u$(xsmall) work-item">
-								<img src="images/fusionConv.PNG" width= 100% alt="Fusion-Aware Point Convolution for Online Semantic 3D Scene Segmentation" ><br>
-							</article>
-							<article class="8u$ 12u$(xsmall) work-item">
-								<p>Jiazhao Zhang*, <strong>Chenyang Zhu*</strong>, Lintao Zheng and <a href="http://kevinkaixu.net/">Kai Xu</a>
-								,"<strong>Fusion-Aware Point Convolution for Online Semantic 3D Scene Segmentation</strong>",  CVPR 2020. *joint first author<br><br></p>
-								<h6>Online semantic 3D segmentation in company with realtime RGB-D reconstruction poses special challenges such as how to perform 3D convolution directly over the progressively fused 3D geometric data, and how to smartly fuse information from frame to frame.</h6><p><a href="https://arxiv.org/pdf/2003.06233.pdf">arxiv</a></p></h6>
-							</article>
-							<article class="4u 12u$(xsmall) work-item">
-								<img src="images/coseg-teaser.png" width= 100% alt="AdaCoSeg: Adaptive Shape Co-Segmentation with Group Consistency Loss" ><br>
-							</article>
-							<article class="8u$ 12u$(xsmall) work-item">
-								<p><strong>Chenyang Zhu</strong>, <a href="http://kevinkaixu.net/">Kai Xu</a>, <a href="https://www.cse.iitb.ac.in/~sidch/">Siddhartha Chaudhuri</a>,
-								<a href="https://cs.stanford.edu/~ericyi/">Li Yi</a>, <a href="https://geometry.stanford.edu/member/guibas/">Leonidas J. Guibas</a> and <a href="https://www.cs.sfu.ca/~haoz/">Hao Zhang</a>
-								, "<strong>AdaCoSeg: Adaptive Shape Co-Segmentation with Group Consistency Loss</strong>",  CVPR 2020, Oral presentation.<br><br></p>
-								<h6>We introduce AdaCoSeg, a deep neural network architecture for adaptive co-segmentation of a set of 3D shapes represented as point clouds. Differently from the familiar single-instance segmentation problem, co-segmentation is intrinsically contextual: how a shape is segmented can vary depending on the set it is in. Hence, our network features an adaptive learning module to produce a consistent shape segmentation which adapts to a set.</h6><p><a href="https://arxiv.org/pdf/1903.10297.pdf">arxiv</a></p></h6>
-							</article>
-							<article class="4u 12u$(xsmall) work-item">
-								<img src="images/zheng_pg19.jpg" width= 100% alt="Active Scene Understanding via Online Semantic Reconstruction" ><br>
-							</article>
-							<article class="8u$ 12u$(xsmall) work-item">
-								<p>Lintao Zheng, <strong>Chenyang Zhu</strong>, Jiazhao Zhang, Hang Zhao, <a href="https://vcc.tech/~huihuang">Hui Huang</a>, <a href="https://niessnerlab.org/">Matthias Niessner</a> and <a href="http://kevinkaixu.net/">Kai Xu</a>
-								, "<strong>Active Scene Understanding via Online Semantic Reconstruction</strong>",  Pacific Graphics 2019.<br><br></p>
-								<h6>We propose a novel approach to robot-operated active understanding of unknown indoor scenes, based on online RGBD reconstruction with semantic segmentation. In our method, the exploratory robot scanning is both driven by and targeting at the recognition and segmentation of semantic objects from the scene. Our algorithm is built on top of the volumetric depth fusion framework (e.g., KinectFusion) and performs real-time voxel-based semantic labeling over the online reconstructed volume. The robot is guided by an online estimated discrete viewing score field (VSF) parameterized over the 3D space of ...</h6><p><a href="https://arxiv.org/pdf/1906.07409.pdf">arxiv</a></p></h6>
-							</article>
-							<article class="4u 12u$(xsmall) work-item">
-									<img src="images/yu_cvpr19.jpg" width= 100% alt="PartNet: A Recursive Part Decomposition Network for Fine-grained and Hierarchical Shape Segmentation" ><br>
-								</article>
-								<article class="8u$ 12u$(xsmall) work-item">
-									<p>Fenggen Yu, Kun Liu, Yan Zhang, <strong>Chenyang Zhu</strong> and <a href="http://kevinkaixu.net/">Kai Xu</a>
-									, "<strong>PartNet: A Recursive Part Decomposition Network for Fine-grained and Hierarchical Shape Segmentation</strong>",  CVPR 2019.<br><br></p>
-									<h6>Deep learning approaches to 3D shape segmentation are typically formulated as a multi-class labeling problem. Existing models are trained for a fixed set of labels, which greatly limits their flexibility and adaptivity. We opt for topdown recursive decomposition and develop the first deep learning model for hierarchical segmentation of 3D shapes, based on recursive neural networks. Starting from a full shape represented as a point cloud, our model performs recursive binary decomposition, where the decomposition network at all nodes in the hierarchy share weights. At each node, a node classifier is trained to determine the type (adjacency or symmetry) and stopping criteria of its decomposition ...</h6><p><a href="https://arxiv.org/pdf/1903.00709.pdf">arxiv</a></p></h6>
-								</article>
-						    <article class="4u 12u$(xsmall) work-item">
-								<img src="images/comp.jpg" width= 100% alt="SCORES: Shape Composition with Recursive Substructure Priors" ><br>
-							</article>
-							<article class="8u$ 12u$(xsmall) work-item">
-								<p><strong>Chenyang Zhu</strong>, <a href="http://kevinkaixu.net/">Kai Xu</a>, <a href="https://www.cse.iitb.ac.in/~sidch/">Siddhartha Chaudhuri</a>,
-								<a href="http://www.sfu.ca/~renjiaoy/">Renjiao Yi</a> and <a href="https://www.cs.sfu.ca/~haoz/">Hao Zhang</a>
-								, "<strong>SCORES: Shape Composition with Recursive Substructure Priors</strong>",  SIGGRAPH ASIA 2018.<br><br></p>
-								<h6>We introduce SCORES, a recursive neural network for shape composition. Our network takes as input sets of parts from two or more source 3D shapes and a rough initial placement of the parts. It outputs an optimized part structure for the composed shape, leading to high-quality geometry construction....</h6><p><a href="https://arxiv.org/pdf/1809.05398.pdf">arxiv</a></p></h6>
-							</article>
-							<!-- -->
-						    <article class="4u 12u$(xsmall) work-item">
-								<img src="images/teaserHighlight.png" width= 100% alt="Interaction Context (ICON): Towards a Geometric Functionality Descriptor" ><br>
-							</article>
-							<article class="8u$ 12u$(xsmall) work-item">
-								<p><a href="http://www.sfu.ca/~renjiaoy/">Renjiao Yi</a>, <strong>Chenyang Zhu</strong>, 
-								<a href="http://www.cs.sfu.ca/~pingtan/">Ping Tan</a>, <a href="https://www.microsoft.com/en-us/research/people/stevelin/">Stephen Lin</a>, "<strong>Faces as Lighting Probes via Unsupervised Deep Highlight Extraction</strong>", ECCV 2018.<br><br></p>
-								<h6>We present a method for estimating detailed scene illumination using human faces in a single image. In contrast to previous works that estimate lighting in terms of low-order basis functions or distant point lights, our technique estimates illumination at a higher precision in the form of a non-parametric environment map...</h6><p><a href="https://arxiv.org/pdf/1803.06340.pdf">arxiv</a></p></h6>
-							</article>
-							<!-- -->
-							<article class="4u 12u$(xsmall) work-item">
-								<img src="images/teaser9.png" width= 100% alt="Interaction Context (ICON): Towards a Geometric Functionality Descriptor" ><br>
-							</article>
-							<article class="8u$ 12u$(xsmall) work-item">
-								<p><strong>Chenyang Zhu</strong>, <a href="http://www.sfu.ca/~renjiaoy/">Renjiao Yi</a>, 
-								<a href="http://www.sfu.ca/~wpintoli/">Wallace Lira</a>, <a href="http://ialhashim.github.io/index.html">Ibraheem Alhashim</a>, <a href="http://kevinkaixu.net/">Kai Xu</a>and <a href="https://www.cs.sfu.ca/~haoz/">Hao Zhang</a>, "<strong>Deformation-Driven Shape Correspondence via Shape Recognition</strong>",  ACM Transactions on Graphics (SIGGRAPH 2017), 36(4): 51, 2017.<br><br></p>
-								<h6>Many approaches to shape comparison and recognition start by establishing a shape correspondence. We "turn the table" and show that quality shape correspondences can be obtained by performing many shape recognition tasks. What is more, the method we develop computes a fine-grained, topology-varying part correspondence between two 3D shapes where the core evaluation mechanism only recognizes shapes globally...</h6><p><a href="papers/zhu_sig17_scsr.pdf">PDF</a></p></h6><p><a href="code&demo/SCSRDemo.rar">Demo</a></p>
-							</article>
-							<!-- -->
-							<article class="4u 12u$(xsmall) work-item">
-									<img src="images/teaser.png" width= 100% alt="Interaction Context (ICON): Towards a Geometric Functionality Descriptor" ><br>
-							</article>
-							<article class="8u$ 12u$(xsmall) work-item">
-								<p><a href="http://vcc.siat.ac.cn/console/homepage/index?uid=54">Ruizhen Hu</a>, <strong>Chenyang Zhu</strong>, <a href="http://people.scs.carleton.ca/~olivervankaick/index.html">Oliver van Kaick</a>, 
-								<a href="http://staff.ustc.edu.cn/~lgliu/">Ligang Liu</a>, <a href="http://www.faculty.idc.ac.il/arik/site/index.asp">Ariel Shamir</a> and <a href="https://www.cs.sfu.ca/~haoz/">Hao Zhang</a>, "<strong>Interaction Context (ICON): Towards a Geometric Functionality Descriptor</strong>", ACM Transactions on Graphics (SIGGRAPH 2015), 33(4): 83, 2015.<br><br></p>
-								<h6>We introduce a contextual descriptor which aims to provide a geometric description of the functionality of a 3D object in the context of a given scene. Differently from previous works, we do not regard functionality as an abstract label or represent it implicitly through an agent. Our descriptor, called interaction context or ICON for short, explicitly represents the geometry of object-to-object interactions... </h6><p><a href="papers/hu_sig15_icon.pdf">PDF</a></p>
-							</article>
-							<!-- -->
-							<article class="4u 12u$(xsmall) work-item">
-								<img src="images/proj_thumbnail_focal.jpg" width= 100% alt="Organizing Heterogeneous Scene Collections through Contextual Focal Points"><br>
-							</article>
-							<article class="8u$ 12u$(xsmall) work-item">
-								<p><a href="http://kevinkaixu.net/index.html">Kai Xu</a>, <a href="http://www.sfu.ca/~ruim/">Rui Ma</a>, 
-								<a href="https://www.cs.sfu.ca/~haoz/">Hao Zhang</a>, <strong>Chenyang Zhu</strong>, <a href="http://www.faculty.idc.ac.il/arik/site/index.asp">Ariel Shamir</a>, 
-								<a href="http://www.cs.tau.ac.il/~dcor/">Daniel Cohen-Or</a> and <a href="http://vcc.siat.ac.cn/console/homepage/index?uid=14">Hui Huang</a>, "<strong>Organizing Heterogeneous Scene Collections through Contextual Focal Points</strong>", ACM Transactions on Graphics (SIGGRAPH 2014), 33(4): 35, 2014.<br><br></p>
-								<h6>We introduce focal points for characterizing, comparing, and organizing collections of complex and heterogeneous data and apply the concepts and algorithms developed to collections of 3D indoor scenes. We represent each scene by a graph of its constituent objects and define focal points as representative substructures in a scene collection. To organize a heterogeneous scene collection, we cluster the scenes... </h6><p><a href="papers/xu_sig14_focal.pdf">PDF</a></p>
-							</article>
-						</div>
-						<ul class="actions">
-							<li><a href="https://dblp.uni-trier.de/pers/hd/z/Zhu_0002:Chenyang" class="button">More on dblp</a></li>
-						</ul>
-					</section>
+  <!--====== Bootstrap css ======-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
-				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<div class="row">
-							<div class="6u 12u$(small)">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon fa-home"><span class="label">Address</span></h3>
-										School Of Computing Science</br>
-										National University of Defense Technology</br>
-										109 Deya Rd.</br>
-										Kaifu District</br>
-										Changsha, Hunan. 410073</br>
-										China
-									</li>
-									<li>
-										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-										<a href="#">chenyang.chandler.zhu@gmail.com</a>
-									</li>
-								</ul>
-							</div>
-							<div class="6u$ 12u$(small)">
-								<img src="images/logo_01.png" height="80px" width="350px" alt="#"><br>
-								<img src="images/sfu.jpg" height="116px" width="285" alt="#"><br>
-								<img src="images/Gruvi.png" height="77px" width="281px" alt="#"><br>
-							</div>
-						</div>
-					</section>
+  <!--====== Line Icons css ======-->
+  <link rel="stylesheet" href="assets/css/lineicons.css" />
 
-				<!-- Four -->
-				<!--
-					<section id="four">
-						<h2>Elements</h2>
+  <!--====== Tiny Slider css ======-->
+  <link rel="stylesheet" href="assets/css/tiny-slider.css" />
 
-						<section>
-							<h4>Text</h4>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-							<hr />
-							<header>
-								<h4>Heading with a Subtitle</h4>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<header>
-								<h5>Heading with a Subtitle</h5>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<hr />
-							<h2>Heading Level 2</h2>
-							<h3>Heading Level 3</h3>
-							<h4>Heading Level 4</h4>
-							<h5>Heading Level 5</h5>
-							<h6>Heading Level 6</h6>
-							<hr />
-							<h5>Blockquote</h5>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-							<h5>Preformatted</h5>
-							<pre><code>i = 0;
+  <!--====== gLightBox css ======-->
+  <link rel="stylesheet" href="assets/css/glightbox.min.css" />
 
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-						</section>
+<body>
 
-						<section>
-							<h4>Lists</h4>
-							<div class="row">
-								<div class="6u 12u$(xsmall)">
-									<h5>Unordered</h5>
-									<ul>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-									<h5>Alternate</h5>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-								</div>
-								<div class="6u$ 12u$(xsmall)">
-									<h5>Ordered</h5>
-									<ol>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ol>
-									<h5>Icons</h5>
-									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-									</ul>
-								</div>
-							</div>
-							<h5>Actions</h5>
-							<ul class="actions">
-								<li><a href="#" class="button special">Default</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions small">
-								<li><a href="#" class="button special small">Small</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<div class="row">
-								<div class="6u 12u$(small)">
-									<ul class="actions vertical">
-										<li><a href="#" class="button special">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-								<div class="6u$ 12u$(small)">
-									<ul class="actions vertical small">
-										<li><a href="#" class="button special small">Small</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-								</div>
-								<div class="6u 12u$(small)">
-									<ul class="actions vertical">
-										<li><a href="#" class="button special fit">Default</a></li>
-										<li><a href="#" class="button fit">Default</a></li>
-									</ul>
-								</div>
-								<div class="6u$ 12u$(small)">
-									<ul class="actions vertical small">
-										<li><a href="#" class="button special small fit">Small</a></li>
-										<li><a href="#" class="button small fit">Small</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
+  <!--====== NAVBAR NINE PART START ======-->
 
-						<section>
-							<h4>Table</h4>
-							<h5>Default</h5>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
+  <section class="navbar-area navbar-nine">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/images/white-logo.png" alt="Logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNine"
+              aria-controls="navbarNine" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="toggler-icon"></span>
+              <span class="toggler-icon"></span>
+              <span class="toggler-icon"></span>
+            </button>
 
-							<h5>Alternate</h5>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
+            <div class="collapse navbar-collapse sub-menu-bar" id="navbarNine">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="page-scroll active" href="#hero-area">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="page-scroll" href="#research">Research</a>
+                </li>
 
-						<section>
-							<h4>Buttons</h4>
-							<ul class="actions">
-								<li><a href="#" class="button special">Special</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button big">Big</a></li>
-								<li><a href="#" class="button">Default</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#" class="button special fit">Fit</a></li>
-								<li><a href="#" class="button fit">Fit</a></li>
-							</ul>
-							<ul class="actions fit small">
-								<li><a href="#" class="button special fit small">Fit + Small</a></li>
-								<li><a href="#" class="button fit small">Fit + Small</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button special icon fa-download">Icon</a></li>
-								<li><a href="#" class="button icon fa-download">Icon</a></li>
-							</ul>
-							<ul class="actions">
-								<li><span class="button special disabled">Special</span></li>
-								<li><span class="button disabled">Default</span></li>
-							</ul>
-						</section>
+                <li class="nav-item">
+                  <a class="page-scroll" href="#publications">Publications</a>
+                </li>
+                <li class="nav-item">
+                  <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
 
-						<section>
-							<h4>Form</h4>
-							<form method="post" action="#">
-								<div class="row uniform 50%">
-									<div class="6u 12u$(xsmall)">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="6u$ 12u$(xsmall)">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="12u$">
-										<div class="select-wrapper">
-											<select name="demo-category" id="demo-category">
-												<option value="">- Category -</option>
-												<option value="1">Manufacturing</option>
-												<option value="1">Shipping</option>
-												<option value="1">Administration</option>
-												<option value="1">Human Resources</option>
-											</select>
-										</div>
-									</div>
-									<div class="4u 12u$(small)">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Low Priority</label>
-									</div>
-									<div class="4u 12u$(small)">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal Priority</label>
-									</div>
-									<div class="4u$ 12u(small)">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">High Priority</label>
-									</div>
-									<div class="6u 12u$(small)">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy of this message</label>
-									</div>
-									<div class="6u$ 12u$(small)">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">I am a human and not a robot</label>
-									</div>
-									<div class="12u$">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="12u$">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="special" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
+            <!-- <div class="navbar-btn d-none d-lg-inline-block">
+              <a class="menu-bar" href="#side-menu-left"><i class="lni lni-menu"></i></a>
+            </div> -->
+          </nav>
+          <!-- navbar -->
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </section>
 
-						<section>
-							<h4>Image</h4>
-							<h5>Fit</h5>
-							<div class="box alt">
-								<div class="row 50% uniform">
-									<div class="12u$"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="4u$"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-									<div class="4u$"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="4u$"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-								</div>
-							</div>
-							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						</section>
+  <!--====== NAVBAR NINE PART ENDS ======-->
 
-					</section>
-				-->
+  <!--====== SIDEBAR PART START ======-->
 
-			</div>
+  <!-- <div class="sidebar-left">
+    <div class="sidebar-close">
+      <a class="close" href="#close"><i class="lni lni-close"></i></a>
+    </div>
+    <div class="sidebar-content">
+      <div class="sidebar-logo">
+        <a href="index.html"><img src="assets/images/logo.svg" alt="Logo" /></a>
+      </div>
+      <p class="text">Lorem ipsum dolor sit amet adipisicing elit. Sapiente fuga nisi rerum iusto intro.</p>
+      
+      <div class="sidebar-menu">
+        <h5 class="menu-title">Quick Links</h5>
+        <ul>
+          <li><a href="javascript:void(0)">About Us</a></li>
+          <li><a href="javascript:void(0)">Our Team</a></li>
+          <li><a href="javascript:void(0)">Latest News</a></li>
+          <li><a href="javascript:void(0)">Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="sidebar-social align-items-center justify-content-center">
+        <h5 class="social-title">Follow Us On</h5>
+        <ul>
+          <li>
+            <a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)"><i class="lni lni-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+    
+  </div>
+  <div class="overlay-left"></div> -->
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
-				</div>
-			</footer>
+  <!--====== SIDEBAR PART ENDS ======-->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+  <!-- Start header Area -->
+  <section id="hero-area" class="header-area header-eight">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-9 col-md-12 col-12">
+          <div class="header-content">
+            <h1>Chenyang Zhu</h1><h2>朱晨阳</h2>
+            <p>
+              My name is Chenyang Zhu. I am currently an Associate Professor at School of Computer Science, National University of Defense Technology (NUDT).
+              I am a faculty member of iGrape Lab @ NUDT, which conducts research in the areas of computer graphics and computer vision. The current directions of interest include data-driven shape analysis and modeling, 3D vision and robot perception & navigation, etc.
+            </p>
+            <p>
+              I was a Ph.D. student in Gruvi Lab, school of Computing Science at Simon Fraser University, under the supervision of Prof. Hao(Richard) Zhang. I earned my Bachelor and Master degree in computer science from National University of Defense Technology (NUDT) in Jun. 2011 and Dec. 2013 respectively.
+            </p>
+            <!-- <div class="button">
+              <a href="javascript:void(0)" class="btn primary-btn">Get Started</a>
+              <a href="https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM"
+                class="glightbox video-button">
+                <span class="btn icon-btn rounded-full">
+                  <i class="lni lni-play"></i>
+                </span>
+                <span class="text">Watch Intro</span>
+              </a>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12 col-12">
+          <div class="header-image">
+            <img src="assets/images/me.jpeg" alt="#" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End header Area -->
 
-	</body>
+  <!--====== ABOUT FIVE PART START ======-->
+
+  <!-- <section class="about-area about-five">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="about-five-content">
+          <h2 class="small-title fw-bold">Research</h2>
+        </div>
+        <div class="col-lg-4 col-12">
+          <h2 class="small-title text-lg">Research</h2>
+        </div>
+        <div class="col-lg-4 col-12">
+          <h2 class="small-title text-lg">Research</h2>
+        </div>
+        <div class="col-lg-4 col-12">
+          <h2 class="small-title text-lg">Research</h2>
+        </div>
+
+
+
+        <div class="col-lg-6 col-12">
+          <div class="about-image-five">
+            <svg class="shape" width="106" height="134" viewBox="0 0 106 134" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle cx="1.66654" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="1.66654" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="16.3333" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="16.3333" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="16.3333" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="16.3333" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="16.333" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="16.333" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="16.333" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="16.333" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="16.333" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="16.333" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="30.9998" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6665" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="30.9998" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6665" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="30.9998" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6665" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="30.9998" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6665" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="31" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6668" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="31" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6668" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="31" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6668" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="31" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6668" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="31" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6668" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="31" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="74.6668" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="45.6665" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="89.3333" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="60.3333" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="1.66679" r="1.66667" fill="#DADADA" />
+              <circle cx="60.3333" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="16.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="60.3333" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="31.0001" r="1.66667" fill="#DADADA" />
+              <circle cx="60.3333" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="45.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="60.333" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="60.3335" r="1.66667" fill="#DADADA" />
+              <circle cx="60.333" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="88.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="60.333" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="117.667" r="1.66667" fill="#DADADA" />
+              <circle cx="60.333" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="74.6668" r="1.66667" fill="#DADADA" />
+              <circle cx="60.333" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="103" r="1.66667" fill="#DADADA" />
+              <circle cx="60.333" cy="132" r="1.66667" fill="#DADADA" />
+              <circle cx="104" cy="132" r="1.66667" fill="#DADADA" />
+            </svg>
+            <img src="assets/images/about/about-img1.jpg" alt="about" />
+          </div>
+        </div>
+        <div class="col-lg-6 col-12">
+          <div class="about-five-content">
+            <h6 class="small-title text-lg">OUR STORY</h6>
+            <h2 class="main-title fw-bold">Our team comes with the experience and knowledge</h2>
+            <div class="about-five-tab">
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-who-tab" data-bs-toggle="tab" data-bs-target="#nav-who"
+                    type="button" role="tab" aria-controls="nav-who" aria-selected="true">Who We Are</button>
+                  <button class="nav-link" id="nav-vision-tab" data-bs-toggle="tab" data-bs-target="#nav-vision"
+                    type="button" role="tab" aria-controls="nav-vision" aria-selected="false">our Vision</button>
+                  <button class="nav-link" id="nav-history-tab" data-bs-toggle="tab" data-bs-target="#nav-history"
+                    type="button" role="tab" aria-controls="nav-history" aria-selected="false">our History</button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-who" role="tabpanel" aria-labelledby="nav-who-tab">
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                    when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, look like readable English.</p>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have in some
+                    form,
+                    by injected humour.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                    when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, look like readable English.</p>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have in some
+                    form,
+                    by injected humour.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-history-tab">
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                    when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, look like readable English.</p>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have in some
+                    form,
+                    by injected humour.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section> -->
+
+  <!--====== ABOUT FIVE PART ENDS ======-->
+
+  <!-- ===== service-area start ===== -->
+  <section id="research" class="services-area services-eight">
+    <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="content">
+              <!-- <h6>Services</h6> -->
+              <h2 class="fw-bold">Research</h2>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+    <!--======  End Section Title Five ======-->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="single-services">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/research/proj_thumbnail_scores.jpg" alt="Blog" /></a>
+            </div>
+            <div class="service-content">
+              <h4></h4>
+              <h3>Shape analysis</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="single-services">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/research/fusion-cvpr20.png" alt="Blog" /></a>
+            </div>
+            <div class="service-content">
+              <h4></h4>
+              <h3>3D Vision</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="single-services">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/research/zhao_sc21_new.png" alt="Blog" /></a>
+            </div>
+            <div class="service-content">
+              <h4></h4>
+              <h3>Robotic applications</h3>
+            </div>
+          </div>
+        </div>
+        <h6 class="small-title text-lg">Grants</h6>
+        <div class="table-content">
+          <ul class="table-list">
+            <li> <i class="lni lni-layers"></i> Graduate School Funding, National University of Defense Technology. 国防科技大学校科研项目. 2019-2022</li>
+            <li> <i class="lni lni-layers"></i> National Natural Science Foundation of China. 国家自然科学基金青年项目. 2020-2023.</li>
+            <li> <i class="lni lni-layers"></i> Young Elite Scientists Sponsorship Program by CAST. 中国科协青年人才托举工程. 2020-2023</li>
+            <li> <i class="lni lni-layers"></i> Hunan Provincial Science and Technology Department Funding. 湖湘青年英才. 2021-2024</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== service-area end ===== -->
+
+
+  <!-- Start Pricing  Area -->
+  <section id="publications" class="pricing-area pricing-fourteen">
+    <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="content">
+              <h2 class="fw-bold">Publications</h2>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+    <!--======  End Section Title Five ======-->
+    <div class="container">
+      <div class="row">
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/chenyi_cvm.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>Computational Visual Media</p>
+            <h4>6DOF Pose Estimation of a 3D Rigid Object based on Edge-enhanced Point Pair Features</h4>
+            <h6>Chenyi Liu, Fei Chen, Lu Deng, Renjiao Yi, Lintao Zheng, Chenyang Zhu and Kai Xu</h6>
+            <p>
+              The point pair feature (PPF) is widely used for 6D pose
+estimation. In this paper, we propose an efficient 6D pose
+estimation method based on the PPF framework.We introduce
+a well-targeted down-sampling strategy that focuses more on
+edge area for efficient feature extraction of complex geometry.
+A pose hypothesis validation approach is proposed to resolve
+the symmetric ambiguity by calculating edge matching degree.
+We perform evaluations on two challenging datasets
+and one real-world collected dataset, demonstrating the superiority
+of our method on pose estimation of geometrically
+complex, occluded, symmetrical objects. We further validate
+our method by applying it to simulated punctures.
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(coming soon)</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/duan_cvpr22.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>CVPR 2022</p>
+            <h4>DisARM: Displacement Aware Relation Module for 3D Detection</h4>
+            <h6>Yao Duan, Chenyang Zhu, Yuqing Lan, Renjiao Yi, Xinwang Liu and Kai Xu</h6>
+            <p>
+              The core idea of DisARM is that contextual information is critical to tell the difference between different objects when the instance geometry is incomplete or featureless. We find that relations between proposals provide a good representation to describe the context. Rather than working with all relations, we find that training with relations only between the most representative ones, or anchors, can significantly boost the detection performance.
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Duan_DisARM_Displacement_Aware_Relation_Module_for_3D_Detection_CVPR_2022_paper.pdf" class="btn primary-btn-outline">Paper</a>
+            </div>
+            <div class="light-rounded-buttons">
+              <a href="https://github.com/YaraDuan/DisARM" class="btn primary-btn-outline">Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/yuqing_cvm.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>Computational Visual Media</p>
+            <h4>ARM3D: Attention-based relation module for indoor 3D object detection</h4>
+            <h6>Yuqing Lan, Yao Duan, Chenyi Liu, Chenyang Zhu, Yueshan Xiong, Hui Huang and Kai Xu</h6>
+            <p>
+              Relation contexts have been proved to be useful for many challenging vision tasks. In the field of 3D object detection, previous methods have been taking the advantage of context encoding, graph embedding, or explicit relation reasoning to extract relation contexts. However, there exist inevitably redundant relation contexts due to noisy or low-quality proposals. In fact, invalid relation contexts usually indicate underlying scene misunderstanding and ambiguity, which may, on the contrary, reduce the performance in complex scenes...
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="https://link.springer.com/article/10.1007/s41095-021-0252-6" class="btn primary-btn-outline">Paper</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/zhao_sc21_new.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>Science China (Information Sciences)</p>
+            <h4>Learning Practically Feasible Policies for Online 3D Bin Packing</h4>
+            <h6>Hang Zhao*, Chenyang Zhu*, Xin Xu, Hui Huang and Kai Xu</h6>
+            <p>
+              This is a follow-up of our AAAI 2021 work on online 3D BPP. In this work, we aim to learn more PRACTICALLY FEASIBLE policies with REAL ROBOT TESTING! To that end, we propose three critical designs: (1) an online analysis of packing stability based on a novel stacking tree which is highly accurate and computationally efficient and hence especially suited for RL training, (2) a decoupled packing policy learning for different dimensions of placement for high-res spatial discretization and hence high packing precision, and (3) a reward function dictating the robot to place items in a far-to-near order and therefore simplifying motion planning of the robotic arm.
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="https://arxiv.org/pdf/2108.13680" class="btn primary-btn-outline">Paper</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/zhang_sig21.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>SIGGRAPH 2021, ACM Transactions on Graphics</p>
+            <h4>ROSEFusion: Random Optimization for Online Dense Reconstruction under Fast Camera Motion</h4>
+            <h6>Jiazhao Zhang, Chenyang Zhu, Lintao Zheng and Kai Xu</h6>
+            <p>
+              Despite CNN-based deblurring models have shown their superiority on solving motion blurs, how to restore photorealistic images from severe motion blurs remains an ill-posed problem due to the loss of temporal information and textures. In this paper, we propose a deep fine-grained video deblurring pipeline consisting of a deblurring module and a recurrent module to address severe motion blurs. Concatenating the blurry image with event representations at a fine-grained temporal period, our proposed model achieves state-of-the-art performance on both popular GoPro and real blurry datasets captured by DAVIS, and is capable of generating high frame-rate video by applying a tiny shift to event representations in the recurrent module.
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="https://arxiv.org/pdf/2105.05600" class="btn primary-btn-outline">Paper</a>
+            </div>
+            <div class="light-rounded-buttons">
+              <a href="https://github.com/jzhzhang/ROSEFusion" class="btn primary-btn-outline">Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/zhang_mmm21.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>MMM 2021</p>
+            <h4>Fine-Grained Video Deblurring with Event Camera</h4>
+            <h6>Limeng Zhang, Hongguang Zhang, Chenyang Zhu, Shasha Guo, Jihua Chen, Lei Wang</h6>
+            <p>
+              Despite CNN-based deblurring models have shown their superiority on solving motion blurs, how to restore photorealistic images from severe motion blurs remains an ill-posed problem due to the loss of temporal information and textures. In this paper, we propose a deep fine-grained video deblurring pipeline consisting of a deblurring module and a recurrent module to address severe motion blurs. Concatenating the blurry image with event representations at a fine-grained temporal period, our proposed model achieves state-of-the-art performance on both popular GoPro and real blurry datasets captured by DAVIS, and is capable of generating high frame-rate video by applying a tiny shift to event representations in the recurrent module.
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-030-67832-6_29" class="btn primary-btn-outline">Paper</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/bpp.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>AAAI 2021</p>
+            <h4>Online 3D Bin Packing with Constrained Deep Reinforcement Learning</h4>
+            <h6>Hang Zhao, Qijin She, Chenyang Zhu, Yin Yang and Kai Xu</h6>
+            <p>
+              We solve a challenging yet practically useful variant of 3D Bin Packing Problem (3D-BPP). In our problem, the agent has limited information about the items to be packed into the bin, and an item must be packed immediately after its arrival without buffering or readjusting. The item's placement also subjects to the constraints of collision avoidance and physical stability.
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="https://arxiv.org/pdf/2006.14978" class="btn primary-btn-outline">Paper</a>
+            </div>
+            <div class="light-rounded-buttons">
+              <a href="https://github.com/alexfrom0815/Online-3D-BPP-DRL" class="btn primary-btn-outline">Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/fusionConv.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>CVPR 2020</p>
+            <h4>Fusion-Aware Point Convolution for Online Semantic 3D Scene Segmentation</h4>
+            <h6>Jiazhao Zhang*, Chenyang Zhu*, Lintao Zheng and Kai Xu</h6>
+            <p>
+              Online semantic scene segmentation with high speed (12 FPS) and SOTA accuracy (avg. IoU=0.72 measured w.r.t. per-frame ground-truth image labels). We have also submitted our results to the ScanNet benchmark, demonstrating an avg. IoU of 0.63 on the leaderboard. Note, however, the number was obtained by spatially transferring the point-wise labels of our online recontructed point clouds to the pre-reconstructed point clouds of the benchmark scenes...
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="https://arxiv.org/pdf/2003.06233" class="btn primary-btn-outline">Paper</a>
+            </div>
+            <div class="light-rounded-buttons">
+              <a href="https://github.com/jzhzhang/FusionAwareConv" class="btn primary-btn-outline">Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/coseg-teaser.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>CVPR 2020, Oral</p>
+            <h4>AdaCoSeg: Adaptive Shape Co-Segmentation with Group Consistency Loss</h4>
+            <h6>Chenyang Zhu, Kai Xu, Siddhartha Chaudhuri, Li Yi, Leonidas J. Guibas and Hao Zhang</h6>
+            <p>
+              We introduce AdaCoSeg, a deep neural network architecture for adaptive co-segmentation of a set of 3D shapes represented as point clouds. Differently from the familiar single-instance segmentation problem, co-segmentation is intrinsically contextual: how a shape is segmented can vary depending on the set it is in. Hence, our network features an adaptive learning module to produce a consistent shape segmentation which adapts to a set.
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="https://arxiv.org/pdf/1903.10297" class="btn primary-btn-outline">Paper</a>
+            </div>
+            <div class="light-rounded-buttons">
+              <a href="https://github.com/BigkoalaZhu/AdaCoSeg" class="btn primary-btn-outline">Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/zheng_pg19.jpg" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>Pacific Graphics 2019, Computer Graphics Forum</p>
+            <h4>Active Scene Understanding via Online Semantic Reconstruction</h4>
+            <h6>Lintao Zheng, Chenyang Zhu, Jiazhao Zhang, Hang Zhao, Hui Huang, Matthias Niessner and Kai Xu</h6>
+            <p>
+              We propose a novel approach to robot-operated active understanding of unknown indoor scenes, based on online RGBD reconstruction with semantic segmentation. In our method, the exploratory robot scanning is both driven by and targeting at the recognition and segmentation of semantic objects from the scene. Our algorithm is built on top of the volumetric depth fusion framework (e.g., KinectFusion) and performs real-time voxel-based semantic labeling over the online reconstructed volume. The robot is guided by an online estimated discrete viewing score field (VSF) parameterized over the 3D space of ...
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="https://arxiv.org/pdf/1906.07409" class="btn primary-btn-outline">Paper</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/yu_cvpr19.jpg" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>CVPR 2019</p>
+            <h4>PartNet: A Recursive Part Decomposition Network for Fine-grained and Hierarchical Shape Segmentation</h4>
+            <h6>Fenggen Yu, Kun Liu, Yan Zhang, Chenyang Zhu and Kai Xu</h6>
+            <p>
+              Deep learning approaches to 3D shape segmentation are typically formulated as a multi-class labeling problem. Existing models are trained for a fixed set of labels, which greatly limits their flexibility and adaptivity. We opt for topdown recursive decomposition and develop the first deep learning model for hierarchical segmentation of 3D shapes, based on recursive neural networks. Starting from a full shape represented as a point cloud, our model performs recursive binary decomposition, where the decomposition network at all nodes in the hierarchy share weights. At each node, a node classifier is trained to determine the type (adjacency or symmetry) and stopping criteria of its decomposition ...
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="https://arxiv.org/pdf/1903.00709" class="btn primary-btn-outline">Paper</a>
+            </div>
+            <div class="light-rounded-buttons">
+              <a href="https://github.com/FoggYu/PartNet" class="btn primary-btn-outline">Code</a>
+            </div>
+            <div class="light-rounded-buttons">
+              <a href="https://github.com/kevin-kaixu/partnet-symh" class="btn primary-btn-outline">Data</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/zhu_siga18.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>SIGGRAPH ASIA 2018, ACM Transactions on Graphics</p>
+            <h4>SCORES: Shape Composition with Recursive Substructure Priors</h4>
+            <h6>Chenyang Zhu, Kai Xu, Siddhartha Chaudhuri, Renjiao Yi and Hao Zhang </h6>
+            <p>
+              We introduce SCORES, a recursive neural network for shape composition. Our network takes as input sets of parts from two or more source 3D shapes and a rough initial placement of the parts. It outputs an optimized part structure for the composed shape, leading to high-quality geometry construction. A unique feature of our composition network is that it is not merely learning how to connect parts. Our goal is to produce a coherent and plausible 3D shape, despite large incompatibilities among the input parts. The network may significantly alter the geometry and structure of the input parts ...
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="https://arxiv.org/pdf/1809.05398" class="btn primary-btn-outline">Paper</a>
+            </div>
+            <div class="light-rounded-buttons">
+              <a href="https://github.com/bigkoalazhu/scores" class="btn primary-btn-outline">Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/teaser-faceslight.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>ECCV 2018</p>
+            <h4>Faces as Lighting Probes via Unsupervised Deep Highlight Extraction</h4>
+            <h6>Renjiao Yi, Chenyang Zhu, Ping Tan and Stephen Lin</h6>
+            <p>
+              We present a method for estimating detailed scene illumination using human faces in a single image. In contrast to previous works that estimate lighting in terms of low-order basis functions or distant point lights, our technique estimates illumination at a higher precision in the form of a non-parametric environment map...
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="https://arxiv.org/pdf/1803.06340v2.pdf" class="btn primary-btn-outline">Paper</a>
+            </div>
+            <div class="light-rounded-buttons">
+              <a href="https://www.dropbox.com/s/de0x3ot5v3kaew5/FaceAsLightingProbes.rar?dl=0" class="btn primary-btn-outline">Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/zhu_sig17.jpg" alt=""/></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>SIGGRAPH 2017, ACM Transactions on Graphics</p>
+            <h4>Deformation-Driven Shape Correspondence via Shape Recognition</h4>
+            <h6>Chenyang Zhu, Renjiao Yi, Wallace Lira, Ibraheem Alhashim, Kai Xuand Hao Zhang</h6>
+            <p>
+              Many approaches to shape comparison and recognition start by establishing a shape correspondence. We “turn the table” and show that quality shape correspondences can be obtained by performing many shape recognition tasks. What is more, the method we develop computes a fine-grained, topology-varying part correspondence between two 3D shapes where the core evaluation mechanism only recognizes shapes globally. This is made possible by casting the part correspondence problem in a deformation-driven framework and relying on a data-driven “deformation energy” which rates visual similarity between deformed shapes and models from a shape repository. Our basic premise is that if a correspondence between two chairs (or airplanes, bicycles, etc.) is correct, then a reasonable deformation between the two chairs anchored on ...
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="papers/zhu_sig17_scsr.pdf" class="btn primary-btn-outline">Paper</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/icon_teaser.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>SIGGRAPH 2015, ACM Transactions on Graphics</p>
+            <h4>Interaction Context (ICON): Towards a Geometric Functionality Descriptor</h4>
+            <h6>Ruizhen Hu, Chenyang Zhu, Oliver van Kaick, Ligang Liu, Ariel Shamir and Hao Zhang</h6>
+            <p>
+              We introduce a contextual descriptor which aims to provide a geometric description of the functionality of a 3D object in the context of a given scene. Differently from previous works, we do not regard functionality as an abstract label or represent it implicitly through an agent. Our descriptor, called interaction context or ICON for short, explicitly represents the geometry of object-to-object interactions...
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="papers/hu_sig15_icon.pdf" class="btn primary-btn-outline">Paper</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/xu_sig14.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>SIGGRAPH 2014, ACM Transactions on Graphics</p>
+            <h4>Organizing Heterogeneous Scene Collections through Contextual Focal Points</h4>
+            <h6>Kai Xu, Rui Ma, Hao Zhang, Chenyang Zhu, Ariel Shamir, Daniel Cohen-Or and Hui Huang</h6>
+            <p>
+              We introduce focal points for characterizing, comparing, and organizing collections of complex and heterogeneous data and apply the concepts and algorithms developed to collections of 3D indoor scenes. We represent each scene by a graph of its constituent objects and define focal points as representative substructures in a scene collection. To organize a heterogeneous scene collection, we cluster the scenes...
+            </p>
+            
+            <div class="light-rounded-buttons">
+              <a href="papers/xu_sig14_focal.pdf" class="btn primary-btn-outline">Paper</a>
+            </div>
+            <div class="light-rounded-buttons">
+              <a href="https://www.dropbox.com/s/k0my6ibgihkc7s3/focal_mc_code.zip?dl=0" class="btn primary-btn-outline">Code</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!--/ End Pricing  Area -->
+
+  <!-- ========================= contact-section start ========================= -->
+  <section id="contact" class="contact-section">
+    <div class="section-title-five">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <!-- <div class="content">
+              <h2 class="fw-bold">Contact</h2>
+            </div> -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4">
+          <div class="contact-item-wrapper">
+            <div class="row">
+              <div class="col-4 col-md-6 col-xl-12">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="lni lni-phone"></i>
+                  </div>
+                  <div class="contact-content">
+                    <h4>Contact</h4>
+                    <p>chenyang.chandler.zhu@gmail.com</p>
+                    <p>zhuchenyang07@nudt.edu.cn</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-8 col-md-6 col-xl-12">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="lni lni-map-marker"></i>
+                  </div>
+                  <div class="contact-content">
+                    <h4>Address</h4>
+                    <p>School Of Computing Science</br>
+                      National University of Defense Technology</br>
+                      109 Deya Rd.</br>
+                      Kaifu District</br>
+                      Changsha, Hunan. 410073</br>
+                      China</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-8">
+          <div class="cover">
+            <a href="javascript:void(0)"><img class="thumb" src="assets/images/bottom2.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <a href="#" class="scroll-top btn-hover">
+    <i class="lni lni-chevron-up"></i>
+  </a>
+
+  <!--====== js ======-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/glightbox.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/tiny-slider.js"></script>
+
+  <script>
+
+    //===== close navbar-collapse when a  clicked
+    let navbarTogglerNine = document.querySelector(
+      ".navbar-nine .navbar-toggler"
+    );
+    navbarTogglerNine.addEventListener("click", function () {
+      navbarTogglerNine.classList.toggle("active");
+    });
+
+    // ==== left sidebar toggle
+    let sidebarLeft = document.querySelector(".sidebar-left");
+    let overlayLeft = document.querySelector(".overlay-left");
+    let sidebarClose = document.querySelector(".sidebar-close .close");
+
+    overlayLeft.addEventListener("click", function () {
+      sidebarLeft.classList.toggle("open");
+      overlayLeft.classList.toggle("open");
+    });
+    sidebarClose.addEventListener("click", function () {
+      sidebarLeft.classList.remove("open");
+      overlayLeft.classList.remove("open");
+    });
+
+    // ===== navbar nine sideMenu
+    let sideMenuLeftNine = document.querySelector(".navbar-nine .menu-bar");
+
+    sideMenuLeftNine.addEventListener("click", function () {
+      sidebarLeft.classList.add("open");
+      overlayLeft.classList.add("open");
+    });
+
+    //========= glightbox
+    GLightbox({
+      'href': 'https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM',
+      'type': 'video',
+      'source': 'youtube', //vimeo, youtube or local
+      'width': 900,
+      'autoplayVideos': true,
+    });
+
+  </script>
+</body>
+
 </html>
