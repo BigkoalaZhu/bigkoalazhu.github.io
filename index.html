@@ -419,15 +419,53 @@
         <div class="publication-two">
           <div class="col-lg-4 col-md-4 col-12">
             <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/xi_cvm.png" alt="" /></a>
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/relighting.png" alt="" /></a>
             </div>
           </div>
           <div class="col-lg-8 col-md-4 col-12">
-            <hp>Computational Visual Media</p>
-            <h4>THP: Tensor-Field-Driven Hierarchical Path Planning for Autonomous Scene Exploration with Depth Sensors</h4>
-            <h6>Yuefeng Xi, Chenyang Zhu, Yao Duan, Renjiao Yi and Kai Xu</h6>
+            <hp>CVPR 2023</p>
+            <h4>Self-supervised Non-Lambertian Single-view Image Relighting</h4>
+            <h6>Renjiao Yi, Chenyang Zhu (co-first author), Kai Xu</h6>
             <p>
-              It is challenging to explore an unknown 3D environment with a robot only equipped with depth sensors automatically due to the limited field of view (FOV). We introduce THP, a tensor field-based framework for efficient environment exploration which can better utilize the encoded information in depth through the geometry characteristics of tensor fields. Specifically, a corresponding tensor field is constructed incrementally and guides the robot to formulate optimal global exploring paths and the collision-free local moving strategy. Degenerate points generated during the exploration are adopted as anchors to formulate a hierarchical TSP for global path optimization. This novel strategy can help the robot avoid long-distance round trips more effectively while maintaining scanning completeness. Moreover, compared to similar methods, our method is 39% more time efficient for path decisions due to our hierarchical exploration strategy.
+              We present a learning-based approach to relighting a single image of non-Lambertian objects. Our method enables inserting objects from photographs into new scenes and relighting them under the new environment lighting, which is essential for AR applications. To relight the object, we solve both inverse rendering and re-rendering. To resolve the ill-posed inverse rendering, we propose a self-supervised method by a low-rank constraint. To facilitate the self-supervised training, we contribute Relit, a large-scale (750K images) dataset of videos with aligned objects under changing illuminations. For re-rendering, we propose a differentiable specular rendering layer to render non-Lambertian materials under various illuminations of spherical harmonics. The whole pipeline is end-to-end and efficient, allowing for a mobile app implementation of AR object insertion. Extensive evaluations demonstrate that our method achieves state-of-the-art performance.
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(coming soon)</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/NEF.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>CVPR 2023</p>
+            <h4>NEF: Neural Edge Fields for 3D Parametric Curve Reconstruction from Multi-view Images</h4>
+            <h6>Yunfan Ye, Renjiao Yi, Zhirui Gao, Chenyang Zhu, Zhiping Cai and Kai Xu</h6>
+            <p>
+              We study the problem of reconstructing 3D feature curves of an object from a set of calibrated multi-view images. To do so, we learn a neural implicit field representing the density distribution of 3D edges which we refer to as Neural Edge Field (NEF). Inspired by NeRF, NEF is optimized with a view-based rendering loss where a 2D edge map is rendered at a given view and is compared to the ground-truth edge map extracted from the image of that view. The rendering-based differentiable optimization of NEF fully exploits 2D edge detection, without needing a supervision of 3D edges, a 3D geometric operator or cross-view edge correspondence. Several technical designs are devised to ensure learning a range-limited and view-independent NEF for robust edge extraction. The final parametric 3D curves are extracted from NEF with an iterative optimization method. On our benchmark with synthetic data, we demonstrate that NEF outperforms existing state-of-the-art methods on all metrics.
+            </p>
+          
+            <div class="light-rounded-buttons">
+              <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(coming soon)</a>
+            </div>
+          </div>
+        </div>
+        <div class="publication-two">
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="image">
+              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/depth_fusion.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-4 col-12">
+            <hp>AAAI 2023 (Oral)</p>
+            <h4>Multi-resolution Monocular Depth Map Fusion by Self-supervised Gradient-based Composition</h4>
+            <h6>Yaqiao Dai, Renjiao Yi, Chenyang Zhu, Hongjun He and Kai Xu</h6>
+            <p>
+              Monocular depth estimation is a challenging problem on which deep neural networks have demonstrated great potential. However, depth maps predicted by existing deep models usually lack fine-grained details due to the convolution operations and the down-samplings in networks. We find that increasing input resolution is helpful to preserve more local details while the estimation at low resolution is more accurate globally. Therefore, we propose a novel depth map fusion module to combine the advantages of estimations with multi-resolution inputs. Instead of merging the low- and high-resolution estimations equally, we adopt the core idea of Poisson fusion, trying to implant the gradient domain of high-resolution depth into the low-resolution depth. While classic Poisson fusion requires a fusion mask as supervision, we propose a self-supervised framework based on guided image filtering. We demonstrate that this gradient-based composition performs much better at noisy immunity, compared with the state-of-the-art depth map fusion method. 
             </p>
           
             <div class="light-rounded-buttons">
@@ -515,7 +553,7 @@ our method by applying it to simulated punctures.
           <div class="col-lg-8 col-md-4 col-12">
             <hp>Science China (Information Sciences)</p>
             <h4>Learning Practically Feasible Policies for Online 3D Bin Packing</h4>
-            <h6>Hang Zhao*, Chenyang Zhu*, Xin Xu, Hui Huang and Kai Xu</h6>
+            <h6>Hang Zhao, Chenyang Zhu (co-first author), Xin Xu, Hui Huang and Kai Xu</h6>
             <p>
               This is a follow-up of our AAAI 2021 work on online 3D BPP. In this work, we aim to learn more PRACTICALLY FEASIBLE policies with REAL ROBOT TESTING! To that end, we propose three critical designs: (1) an online analysis of packing stability based on a novel stacking tree which is highly accurate and computationally efficient and hence especially suited for RL training, (2) a decoupled packing policy learning for different dimensions of placement for high-res spatial discretization and hence high packing precision, and (3) a reward function dictating the robot to place items in a far-to-near order and therefore simplifying motion planning of the robotic arm.
             </p>
@@ -605,7 +643,7 @@ our method by applying it to simulated punctures.
           <div class="col-lg-8 col-md-4 col-12">
             <hp>CVPR 2020</p>
             <h4>Fusion-Aware Point Convolution for Online Semantic 3D Scene Segmentation</h4>
-            <h6>Jiazhao Zhang*, Chenyang Zhu*, Lintao Zheng and Kai Xu</h6>
+            <h6>Jiazhao Zhang, Chenyang Zhu (co-first author), Lintao Zheng and Kai Xu</h6>
             <p>
               Online semantic scene segmentation with high speed (12 FPS) and SOTA accuracy (avg. IoU=0.72 measured w.r.t. per-frame ground-truth image labels). We have also submitted our results to the ScanNet benchmark, demonstrating an avg. IoU of 0.63 on the leaderboard. Note, however, the number was obtained by spatially transferring the point-wise labels of our online recontructed point clouds to the pre-reconstructed point clouds of the benchmark scenes...
             </p>
