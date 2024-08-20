@@ -54,9 +54,11 @@
                   <a class="page-scroll active" href="#hero-area">Home</a>
                 </li>
                 <li class="nav-item">
+                  <a class="page-scroll" href="#news">News</a>
+                </li>
+                <li class="nav-item">
                   <a class="page-scroll" href="#research">Research</a>
                 </li>
-
                 <li class="nav-item">
                   <a class="page-scroll" href="#publications">Publications</a>
                 </li>
@@ -325,6 +327,37 @@
 
   <!--====== ABOUT FIVE PART ENDS ======-->
 
+  <section id="news" class="services-area services-eight">
+    <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="content">
+              <!-- <h6>Services</h6> -->
+              <h2 class="fw-bold">News</h2>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+    <!--======  End Section Title Five ======-->
+    <div class="container">
+      <div class="row">
+        <h6 class="small-title text-lg"></h6>
+        <div class="table-content">
+          <ul class="table-list">
+            <li> <i class="lni lni-layers"></i> One paper was conditionally acceptted by PG 2024 (Journal track)!</li>
+            <li> <i class="lni lni-layers"></i> One paper was conditionally acceptted by SIGGRAPH ASIA 2024!</li>
+            <li> <i class="lni lni-layers"></i> One paper got acceptted by ACM MM 2024!</li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- ===== service-area start ===== -->
   <section id="research" class="services-area services-eight">
     <!--======  Start Section Title Five ======-->
@@ -385,6 +418,7 @@
             <li> <i class="lni lni-layers"></i> National Natural Science Foundation of China. 国家自然科学基金青年项目. 2020-2023.</li>
             <li> <i class="lni lni-layers"></i> Young Elite Scientists Sponsorship Program by CAST. 中国科协青年人才托举工程. 2020-2023</li>
             <li> <i class="lni lni-layers"></i> Hunan Provincial Science and Technology Department Funding. 湖湘青年英才. 2021-2024</li>
+            <li> <i class="lni lni-layers"></i> National Natural Science Foundation of China. 国家自然科学基金面上项目. 2024-2027.</li>
           </ul>
         </div>
       </div>
@@ -414,6 +448,121 @@
       <div class="row">
         <div class="content">
           <!-- <h6>Services</h6> -->
+          <h2 class="fw-bold">2024</h2>
+          <div class="publication-two">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="image">
+                <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/dsgi.png" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-4 col-12">
+              <hp>PG 2024</p>
+              <h4>DSGI-Net: Density-based Selective Grouping Point Cloud Learning Network for Indoor Scene</h4>
+              <h6>Xin Wen, Yao Duan, Kai Xu and  Chenyang Zhu</h6>
+              <p>
+                Indoor scene point clouds exhibit diverse distributions and varying sparsity, characterized by more complex geometry and occlusion than outdoor scenes or individual objects. Despite recent advancements in 3D point cloud analysis introducing various network architectures, there remains a lack of frameworks tailored to the unique attributes of indoor scenarios. To address this, we propose DAGINet, a novel indoor scene point cloud learning network that can be embedded into other models. The key innovation of this work is sampling more informative neighbor points adaptively in sparse regions and promoting semantic consistency of the local area where different instances are in proximity but belong to distinct categories. Furthermore, our method encodes the semantic and spatial relationships between points within local regions to mitigate the loss of local geometry details. Extensive experiments on the ScanNetv2, SUN RGB-D, and S3DIS indoor scene benchmarks demonstrate that our method is both concise and efficient.
+              </p>
+            
+              <div class="light-rounded-buttons">
+                <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(Coming soon)</a>
+              </div>
+            </div>
+          </div>
+          <div class="publication-two">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="image">
+                <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/llm.jpg" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-4 col-12">
+              <hp>SIGGRAPH Asia 2024</p>
+              <h4>LLM-enhanced Scene Graph Learning for Household Rearrangement</h4>
+              <h6>Wenhao Li, Zhiyuan Yu, Qijin She, Zhinan Yu, Yuqing Lan, Chenyang Zhu, Ruizhen Hu and Kai Xu</h6>
+              <p>
+                The household rearrangement task involves spotting misplaced objects in a scene and accommodate them with proper places. It depends both on common-sense knowledge on the objective side and human user preference on the subjective side. In achieving such task, we propose to mine object functionality with user preference alignment directly from the scene itself, without relying on human intervention. To do so, we work with scene graph representation and propose LLM-enhanced scene graph learning which transforms the input scene graph into an affordance-enhanced graph (AEG) with information-enhanced nodes and newly discovered edges (relations). In AEG, the nodes corresponding to the receptacle objects are augmented with context-induced affordance which encodes what kind of carriable objects can be placed on it. New edges are discovered with newly discovered non-local relations. With AEG, we perform task planning for scene rearrangement by detecting misplaced carriables and determining a proper placement for each of them. We test our method by implementing a tiding robot in simulator and perform evaluation on a new benchmark we build. Extensive evaluations demonstrate that our method achieves state-of-the-art performance on misplacement detection and the following rearrangement planning.
+              </p>
+            
+              <div class="light-rounded-buttons">
+                <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(Coming soon)</a>
+              </div>
+            </div>
+          </div>
+          <div class="publication-two">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="image">
+                <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/cso.png" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-4 col-12">
+              <hp>ACM Multimedia 2024</p>
+              <h4>CSO: Constraint-guided Space Optimization for Active Scene Mapping</h4>
+              <h6>Xuefeng Yin, Chenyang Zhu, Shanglai Qu, Yuqi Li, Kai Xu, Baocai Yin and Xin Yang</h6>
+              <p>
+                Simultaneously mapping and exploring a complex unknown scene is an NP-hard problem, which is still challenging with the rapid development of deep learning techniques. We present CSO, a deep reinforcement learning-based framework for efficient active scene mapping. Constraint-guided space optimization is adopted for both state and critic space to reduce the difficulty of finding the global optimal explore path and avoid long-distance round trips while exploring. We first take the frontiers-based entropy as the input constraint with the raw observation into the network, which guides the training start from imitating the local greedy searching. However, the entropy-based optimization can easily get stuck with few local optimal or cause inefficient round trips since the entropy space and the real world do not share the same metric. Inspired by constrained reinforcement learning, we then introduce an action mask-based optimization constraint to align the metric of these two spaces. Exploration optimization in aligned spaces can avoid long-distance round trips more effectively. 
+              </p>
+            
+              <div class="light-rounded-buttons">
+                <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(Coming soon)</a>
+              </div>
+            </div>
+          </div>
+          <div class="publication-two">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="image">
+                <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/superudf.png" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-4 col-12">
+              <hp>IEEE transactions on visualization and computer graphics</p>
+              <h4>SuperUDF: Self-Supervised UDF Estimation for Surface Reconstruction</h4>
+              <h6>Hui Tian, Chenyang Zhu, Yifei Shi and Kai Xu</h6>
+              <p>
+                Learning-based surface reconstruction based on unsigned distance functions (UDF) has many advantages such as handling open surfaces. We propose SuperUDF, a self-supervised UDF learning which exploits a learned geometry prior for efficient training and a novel regularization for robustness to sparse sampling. The core idea of SuperUDF draws inspiration from the classical surface approximation operator of locally optimal projection (LOP). The key insight is that if the UDF is estimated correctly, the 3D points should be locally projected onto the underlying surface following the gradient of the UDF. Based on that, a number of inductive biases on UDF geometry and a pre-learned geometry prior are devised to learn UDF estimation efficiently. A novel regularization loss is proposed to make SuperUDF robust to sparse sampling. Furthermore, we also contribute a learning-based mesh extraction from the estimated UDFs. Extensive evaluations demonstrate that SuperUDF outperforms the state of the arts on several public datasets in terms of both quality and efficiency. 
+              </p>
+            
+              <div class="light-rounded-buttons">
+                <a href="https://ieeexplore.ieee.org/abstract/document/10258304" class="btn primary-btn-outline">Paper</a>
+              </div>
+            </div>
+          </div>
+          <div class="publication-two">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="image">
+                <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/xi_cvm.png" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-4 col-12">
+              <hp>Computational Visual Media</p>
+              <h4>THP: Tensor-Field-Driven Hierarchical Path Planning for Autonomous Scene Exploration with Depth Sensors</h4>
+              <h6>Yuefeng Xi, Chenyang Zhu, Yao Duan, Renjiao Yi, Lintao Zheng Hongjun He and Kai Xu</h6>
+              <p>
+                It is challenging to automatically explore an unknown 3D environment with a robot only equipped with depth sensors due to the limited field of view. We introduce THP, a tensor field-based framework for efficient environment exploration which can better utilize the encoded depth information through the geometric characteristics of tensor fields. Specifically, a corresponding tensor field is constructed incrementally and guides the robot to formulate optimal global exploration paths and a collision-free local movement strategy...
+              </p>
+            
+              <div class="light-rounded-buttons">
+                <a href="https://link.springer.com/article/10.1007/s41095-022-0312-6" class="btn primary-btn-outline">Paper</a>
+              </div>
+            </div>
+          </div>
+          <div class="publication-two">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="image">
+                <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/gao_corr_cvm_2022.png" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-4 col-12">
+              <hp>Computational Visual Media</p>
+              <h4>Learning Accurate Template Matching with Differentiable Coarse-to-fine Correspondence Refinement</h4>
+              <h6>Zhirui Gao, Renjiao Yi, Zheng Qin, Yunfan Ye, Chenyang Zhu and Kai Xu</h6>
+              <p>
+                Template matching is a fundamental task in computer vision and has been studied for decades. It plays an essential role in the manufacturing industry for estimating the poses of different parts, facilitating downstream tasks such as robotic grasping. Existing works fail when the template and source images are in different modalities, cluttered backgrounds or weak textures. They also rarely consider geometric transformations via homographies, which commonly existed even for planar industrial parts. To tackle the challenges, we propose an accurate template matching method based on differentiable coarse-to-fine correspondence refinement...
+              </p>
+            
+              <div class="light-rounded-buttons">
+                <a href="https://link.springer.com/article/10.1007/s41095-023-0333-9" class="btn primary-btn-outline">Paper</a>
+              </div>
+            </div>
+          </div>
           <h2 class="fw-bold">2023</h2>
         </div>
         <div class="publication-two">
@@ -431,7 +580,7 @@
             </p>
           
             <div class="light-rounded-buttons">
-              <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(coming soon)</a>
+              <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Li_2D3D-MATR_2D-3D_Matching_Transformer_for_Detection-Free_Registration_Between_Images_and_ICCV_2023_paper.html" class="btn primary-btn-outline">Paper</a>
             </div>
           </div>
         </div>
@@ -450,7 +599,7 @@
             </p>
           
             <div class="light-rounded-buttons">
-              <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(coming soon)</a>
+              <a href="https://ieeexplore.ieee.org/document/10128731" class="btn primary-btn-outline">Paper</a>
             </div>
           </div>
         </div>
@@ -469,7 +618,7 @@
             </p>
           
             <div class="light-rounded-buttons">
-              <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(coming soon)</a>
+              <a href="https://link.springer.com/article/10.1007/s41095-023-0366-0" class="btn primary-btn-outline">Paper</a>
             </div>
           </div>
         </div>
@@ -488,7 +637,7 @@
             </p>
           
             <div class="light-rounded-buttons">
-              <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(coming soon)</a>
+              <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Yi_Weakly-Supervised_Single-View_Image_Relighting_CVPR_2023_paper.pdf" class="btn primary-btn-outline">Paper</a>
             </div>
           </div>
         </div>
@@ -507,7 +656,7 @@
             </p>
           
             <div class="light-rounded-buttons">
-              <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(coming soon)</a>
+              <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Ye_NEF_Neural_Edge_Fields_for_3D_Parametric_Curve_Reconstruction_From_CVPR_2023_paper.pdf" class="btn primary-btn-outline">Paper</a>
             </div>
           </div>
         </div>
@@ -536,25 +685,6 @@
         <div class="content">
           <!-- <h6>Services</h6> -->
           <h2 class="fw-bold">2022</h2>
-          <div class="publication-two">
-            <div class="col-lg-4 col-md-4 col-12">
-              <div class="image">
-                <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/gao_corr_cvm_2022.png" alt="" /></a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-md-4 col-12">
-              <hp>Computational Visual Media</p>
-              <h4>Learning Accurate Template Matching with Differentiable Coarse-to-fine Correspondence Refinement</h4>
-              <h6>Zhirui Gao, Renjiao Yi, Zheng Qin, Yunfan Ye, Chenyang Zhu and Kai Xu</h6>
-              <p>
-                Template matching is a fundamental task in computer vision and has been studied for decades. It plays an essential role in the manufacturing industry for estimating the poses of different parts, facilitating downstream tasks such as robotic grasping. Existing works fail when the template and source images are in different modalities, cluttered backgrounds or weak textures. They also rarely consider geometric transformations via homographies, which commonly existed even for planar industrial parts. To tackle the challenges, we propose an accurate template matching method based on differentiable coarse-to-fine correspondence refinement...
-              </p>
-            
-              <div class="light-rounded-buttons">
-                <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(coming soon)</a>
-              </div>
-            </div>
-          </div>
         <div class="publication-two">
           <div class="col-lg-4 col-md-4 col-12">
             <div class="image">
@@ -581,26 +711,7 @@ our method by applying it to simulated punctures.
             </p>
           
             <div class="light-rounded-buttons">
-              <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(coming soon)</a>
-            </div>
-          </div>
-        </div>
-        <div class="publication-two">
-          <div class="col-lg-4 col-md-4 col-12">
-            <div class="image">
-              <a href="javascript:void(0)"><img class="thumb" src="assets/images/publication/xi_cvm.png" alt="" /></a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-md-4 col-12">
-            <hp>Computational Visual Media</p>
-            <h4>THP: Tensor-Field-Driven Hierarchical Path Planning for Autonomous Scene Exploration with Depth Sensors</h4>
-            <h6>Yuefeng Xi, Chenyang Zhu, Yao Duan, Renjiao Yi, Lintao Zheng Hongjun He and Kai Xu</h6>
-            <p>
-              It is challenging to automatically explore an unknown 3D environment with a robot only equipped with depth sensors due to the limited field of view. We introduce THP, a tensor field-based framework for efficient environment exploration which can better utilize the encoded depth information through the geometric characteristics of tensor fields. Specifically, a corresponding tensor field is constructed incrementally and guides the robot to formulate optimal global exploration paths and a collision-free local movement strategy...
-            </p>
-          
-            <div class="light-rounded-buttons">
-              <a href="javascript:void(0)" class="btn primary-btn-outline">Paper(coming soon)</a>
+              <a href="6DOF Pose Estimation of a 3D Rigid Object based on Edge-enhanced Point Pair Features" class="btn primary-btn-outline">Paper</a>
             </div>
           </div>
         </div>
